@@ -76,7 +76,7 @@ fun Myself( modifier: Modifier = Modifier) {
                         color= Color.Blue,
                         topLeft = Offset(
                             x = canvasWidth - 1100f,
-                            y = canvasHeight - 800f),
+                            y = canvasHeight - 780f),
                         size= Size(width = 50f, height = 50f)
                     )
                     drawRect(
