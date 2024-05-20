@@ -74,13 +74,17 @@ fun Myself( modifier: Modifier = Modifier) {
                     val canvasHeight = size.height
                     drawRect(
                         color= Color.Blue,
-                        topLeft = Offset(50f, 50f),
-                        size= Size(width = 200f, height = 100f)
+                        topLeft = Offset(
+                            x = canvasWidth - 1100f,
+                            y = canvasHeight - 800f),
+                        size= Size(width = 50f, height = 50f)
                     )
                     drawRect(
                         color= Color.Blue,
-                        topLeft = Offset(-250f,-150f),
-                        size= Size(width = 200f, height = 100f)
+                        topLeft = Offset(
+                            x = canvasWidth - 250f,
+                            y = canvasHeight - 150f),
+                        size= Size(width = 50f, height = 50f)
                     )
                 }
             }
